@@ -6,5 +6,7 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "/" }]
+  "routes": [{ "src": "/(.*)", "dest": "/" }],
+
+  "installCommand": "npm i multer-gridfs-storage --legacy-peer-deps"
 }
