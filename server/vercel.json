@@ -8,8 +8,5 @@
   ],
   "routes": [{ "src": "/(.*)", "dest": "/" }],
 
-  "installCommand": [
-    "npm i multer-gridfs-storage --legacy-peer-deps",
-    "npm install multer"
-  ]
+  "installCommand": "npm i multer-gridfs-storage --legacy-peer-deps"
 }
